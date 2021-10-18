@@ -1,0 +1,31 @@
+general:
+  path: ./images
+  fileTypes:
+    - png
+    - jpg
+    - bmp
+    - webp
+    - jpeg
+  progressBar: true
+
+ai:
+  enable: true
+  results: 5
+  model: resnet50_weights_tf_dim_ordering_tf_kernels.h5  # https://github.com/OlafenwaMoses/ImageAI/releases/tag/1.0
+  modelType: ResNet
+
+dominant:
+  enable: true
+  quality: 1  # The higher the number, the faster the program, but at the cost of quailty.
+
+palette:
+  enable: true
+  colorCount: 6
+
+debugging:
+  enable: true
+  logErrors:
+    enable: true
+    logPath: ./logs
+    createSeperateFilesForEveryTimeTheProgramIsRan: true
+    printErrors: false

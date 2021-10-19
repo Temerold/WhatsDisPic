@@ -4,7 +4,7 @@ from log import *
 
 def moveOriginal(name, root, base, ext, failed=False):
     """
-    Moves image to
+    Moves image to its own folder, or the failed folder.
 
     Args:
         name (str): File name
